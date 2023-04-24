@@ -16,7 +16,7 @@ const UserCard = ({ user, deleteUser, handleClickEdit }) => {
           <div className="">
             <img
               className="max-h-[100px] object-cover max-w-[100px] mx-auto rounded-full translate-y-[-5rem] border-4 border-blue-500 bg-white "
-              src="public/images/noProfile.png"
+              src="./images/noProfile.png"
               alt="User img"
             />
           </div>
