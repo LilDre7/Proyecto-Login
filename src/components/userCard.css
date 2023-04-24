@@ -1,0 +1,27 @@
+.section__info {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+  color: white;
+}
+
+.section__userCard {
+  background-color: #00000064;
+  border: 4px solid rgba(255, 0, 0, 0.5);
+}
+
+@keyframes border-animation {
+  0% {
+    border-color: rgba(255, 0, 0, 0.5);
+  }
+  50% {
+    border-color: rgba(0, 255, 0, 0.5);
+  }
+  100% {
+    border-color: rgba(0, 0, 255, 0.5);
+  }
+}
+
+.animated-border {
+  animation: border-animation 2s ease-in-out infinite;
+}
